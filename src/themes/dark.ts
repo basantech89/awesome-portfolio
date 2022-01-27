@@ -1,5 +1,4 @@
 import colors from './colors'
-import commonThemeOptions from './common'
 
 const extended = {
 	Header: {
@@ -26,7 +25,6 @@ const darkThemeOptions = {
 			contrastText: '#000'
 		}
 	},
-	...commonThemeOptions,
 	cfg: extended
 }
 

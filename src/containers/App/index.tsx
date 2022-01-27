@@ -1,3 +1,4 @@
+import { AwesomeThemeProvider } from 'awesome-ui'
 import React from 'react'
 import { ErrorBoundary } from 'react-error-boundary'
 import { Provider } from 'react-redux'
@@ -9,13 +10,15 @@ import Routes from './Routes'
 
 const App: React.FC = () => {
 	return (
-		<Provider store={store}>
-			<ErrorBoundary FallbackComponent={ErrorFallback}>
-				<Layout>
-					<Routes />
-				</Layout>
-			</ErrorBoundary>
-		</Provider>
+		<AwesomeThemeProvider>
+			<Provider store={store}>
+				<ErrorBoundary FallbackComponent={ErrorFallback}>
+					<Layout>
+						<Routes />
+					</Layout>
+				</ErrorBoundary>
+			</Provider>
+		</AwesomeThemeProvider>
 	)
 }
 

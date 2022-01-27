@@ -1,5 +1,4 @@
 import colors from './colors'
-import commonThemeOptions from './common'
 
 const extended = {
 	Header: {
@@ -29,7 +28,6 @@ const lightThemeOptions = {
 			default: '#f0f5f9'
 		}
 	},
-	...commonThemeOptions,
 	cfg: extended
 }
 

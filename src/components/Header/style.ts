@@ -13,14 +13,9 @@ export const useAppHeaderStyles = makeStyles(
 				letterSpacing: 0.7,
 				flexGrow: 1,
 				color: '#fff',
-				textDecoration: 'none',
-				[theme.breakpoints.up('sm')]: {
-					display: 'block'
-				}
+				textDecoration: 'none'
 			},
 			themeToggleButton: {
-				background: theme.cfg.Header.background,
-				border: theme.cfg.Header.border,
 				borderRadius: 30,
 				width: '4%',
 				padding: '5px 10px',

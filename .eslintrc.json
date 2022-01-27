@@ -10,14 +10,12 @@
 		"plugin:@typescript-eslint/recommended",
 		"eslint:recommended",
     "plugin:import/errors",
-//    "plugin:import/warnings",
+//  	"plugin:import/warnings",
     "plugin:import/typescript",
 		"plugin:react-hooks/recommended",
 		"plugin:react/recommended",
     "plugin:jsx-a11y/recommended",
     "prettier",
-    "prettier/react",
-    "prettier/@typescript-eslint",
 		"plugin:prettier/recommended" // Make sure this is always the last element in the array.
 	],
   "rules": {
@@ -44,7 +42,6 @@
   "plugins": [
 		"react",
 		"simple-import-sort",
-		"import",
 		"jsx-a11y",
 		"react-hooks",
 		"@typescript-eslint",
